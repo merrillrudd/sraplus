@@ -1,5 +1,7 @@
 useDynLib(sraplus, .registration=TRUE)
+useDynLib(sraplus_tmb)
 importFrom(Rcpp, evalCpp)
+importFrom(TMB, MakeADFun)
 exportPattern("^[[:alpha:]]+")
 importFrom(magrittr,"%>%")
 

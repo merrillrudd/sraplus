@@ -24,7 +24,7 @@ Imports:
     tidybayes,
     rstan,
     rstanarm
-LinkingTo: Rcpp
+LinkingTo: Rcpp, TMB, RcppEigen
 Suggests: 
     testthat,
     knitr,
